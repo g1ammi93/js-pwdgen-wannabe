@@ -27,7 +27,7 @@ Buon lavoro e buon weekend! :laptop_parrot:
 
 <!-- Scaletta -->
 
--Recupero gli elementi di interesse
+-Recupero gli elementi dal DOM
 -Dichiarare una variabile Nome
 -Chiedere il nome all'utente con un prompt
 -Salvarlo in una variabile
