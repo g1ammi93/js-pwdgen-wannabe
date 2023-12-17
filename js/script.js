@@ -1,6 +1,8 @@
 // Elemtni di interesse
 const element = document.getElementById('password');
+console.log(password);
 let endpass = 21;
+
 
 
 // Elementi che dipendono dall'utente
@@ -14,7 +16,7 @@ console.log(Color);
 
 // Costruisco la password
 
-endpass = firstName + Surname + Color + endpass
-console.log(endpass)
+const pass = firstName + Surname + Color + endpass;
+console.log(endpass);
 
-element.innerText = endpass
+element.innerHTML = '<strong>' + pass + '</strong>';
