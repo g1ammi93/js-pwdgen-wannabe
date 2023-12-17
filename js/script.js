@@ -2,6 +2,7 @@
 const element = document.getElementById('password');
 console.log(password);
 let endpass = 21;
+const message = 'La tua password è: '
 
 
 
@@ -19,4 +20,4 @@ console.log(Color);
 const pass = firstName + Surname + Color + endpass;
 console.log(endpass);
 
-element.innerHTML = '<strong>' + pass + '</strong>';
+element.innerHTML = message + '<strong>' + pass + '</strong>';
